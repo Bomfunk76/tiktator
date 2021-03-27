@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('/fonts/MontserratMedium.eot');
+  src: url('/fonts/MontserratMedium.eot') format('embedded-opentype'),
+       url('/fonts/MontserratMedium.woff2') format('woff2'),
+       url('/fonts/MontserratMedium.woff') format('woff'),
+       url('/fonts/MontserratMedium.ttf') format('truetype'),
+       url('/fonts/MontserratMedium.svg#MontserratMedium') format('svg');
+}
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('/fonts/MontserratSemiBold.eot');
+  src: url('/fonts/MontserratSemiBold.eot') format('embedded-opentype'),
+       url('/fonts/MontserratSemiBold.woff2') format('woff2'),
+       url('/fonts/MontserratSemiBold.woff') format('woff'),
+       url('/fonts/MontserratSemiBold.ttf') format('truetype'),
+       url('/fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
+}
