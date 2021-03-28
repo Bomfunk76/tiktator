@@ -137,7 +137,6 @@ body {
 main {
   flex: 1 0 auto;
   position: relative;
-  margin-bottom: 100px;
 }
 .container {
   padding: 0 15px;
@@ -185,6 +184,7 @@ h6 {
   margin: 0;
 }
 img {
+  user-select: none;
   max-width: 100%;
 }
 .position-relative {
@@ -254,6 +254,7 @@ img {
   color: rgba(255, 255, 255, 0.7);
 }
 .primary-btn {
+  user-select: none;
   font-family: "MontserratSemiBold", serif;
   display: flex;
   align-items: center;
@@ -269,6 +270,7 @@ img {
   background-size: contain;
 }
 .to-bottom {
+  user-select: none;
   background: transparent;
   border: none;
   padding: 0;
@@ -359,4 +361,31 @@ header {
   .primary-time {
     font-size: 14px;
   }
+}
+footer {
+  padding: 32px 0;
+}
+.social-title {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 44px;
+}
+@media (max-width: 600px) {
+  .social-title {
+    display: none;
+  }
+}
+.social-btn {
+  width: 42px;
+  height: 42px;
+  background: #232323;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-btn:not(:last-child) {
+  margin-right: 16px;
 }
