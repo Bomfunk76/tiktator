@@ -389,7 +389,7 @@ footer {
 }
 @media (max-width: 992px) {
   .primary-image {
-    align-items: flex-end;
+    margin-left: auto;
   }
 }
 .primary-time {
