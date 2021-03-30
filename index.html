@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark light">
   <title>Tiktator</title>
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -48,7 +49,7 @@
     <a href="" class="primary-btn">Стать учасником</a>
   </header>
   <main>
-    <section class="primary-section">
+    <section id="primary" class="primary-section">
       <div class="container">
         <div class="position-relative">
           <div class="primary-section--container flex-column flex-align-start">
@@ -65,21 +66,101 @@
         </div>
       </div>
     </section>
-    <!-- <div class="container">
-      <section class="profit-section">
-        <h4 class="font-size16 letter-spacing-05 color-green margin-bottom10">Зарабатывай в тик-ток</h4>
-        <h2 class="section-title">О чем урок?</h2>
-        <h3 class="section-description">После отметки в 2 миллиарда скачиваний Tik-Tok перестал быть просто приложением с видосиками. Теперь — это место, где сосредоточены огромные деньги.  </h3>
+    <div class="container">
+      <section id="profit" class="profit-section">
+        <div class="profit-section--header">
+          <h4 class="font-size16 letter-spacing-05 color-green margin-bottom10">Зарабатывай в тик-ток</h4>
+          <h2 class="section-title">О чем урок?</h2>
+          <h3 class="section-description">После отметки в 2 миллиарда скачиваний Tik-Tok перестал быть просто приложением с видосиками. Теперь — это место, где сосредоточены огромные деньги.  </h3>
+        </div>
+        <div class="profit-blocks">
+          <div class="profit-blocks--wrap">
+            <div class="profit-blocks--item">
+              <span>Какие профессии <br> востребованы в тик-ток?</span>
+              <img src="/img/profit-01.svg" alt="profit-01" class="profit-blocks--img">
+            </div>
+          </div>
+          <div class="profit-blocks--wrap">
+            <div class="profit-blocks--item">
+              <span>Как заработать <br> не выходя из тик-ток?</span>
+              <img src="/img/profit-02.svg" alt="profit-02" class="profit-blocks--img">
+            </div>
+          </div>
+          <div class="profit-blocks--wrap">
+            <div class="profit-blocks--item">
+              <span>Сколько зарабатывают <br> специалисты в тик-ток?</span>
+              <img src="/img/profit-03.svg" alt="profit-03" class="profit-blocks--img">
+            </div>
+          </div>
+          <div class="profit-blocks--wrap">
+            <div class="profit-blocks--item">
+              <span>Как создавать контент, <br> который стоит дорого?</span>
+              <img src="/img/profit-04.svg" alt="profit-04" class="profit-blocks--img">
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="speakers-section">
-        <h2 class="section-title">Наши спикеры</h2>
-        <h3 class="section-description">Практикующие эксперты с реальными кейсами</h3>
+      <section id="speakers" class="speakers-section">
+        <div class="speakers-section--header">
+          <h2 class="section-title">Наши спикеры</h2>
+          <h3 class="section-description">Практикующие эксперты с реальными кейсами</h3>
+        </div>
+        <div class="speakers-blocks">
+          <div class="speakers-blocks--wrap">
+            <div class="speakers-blocks--item">
+              <div class="speakers-blocks--img">
+                <img src="/img/speaker-01.png" alt="speakers-01">
+                <img src="/img/speaker-01-mobile.png" alt="speakers-01-mobile" class="mobile-only">
+              </div>
+              <div class="speakers-blocks--content">
+                <span class="margin-bottom4">Евгений Макаренко</span>
+                <span class="font-size14 color-white07 margin-bottom20">15 лет обучает диджитал-специалистов</span>
+                <div class="flex font-size14 margin-bottom56">
+                  <a href="" class="margin-right16">Instagram</a>
+                  <a href="" class="">Facebook</a>
+                </div>
+                <span class="margin-top-auto">Как освоить профессию <br> в Tik-Tok за 14 дней?</span>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-blocks--wrap">
+            <div class="speakers-blocks--item">
+              <div class="speakers-blocks--img">
+                <img src="/img/speaker-02.png" alt="speakers-02">
+                <img src="/img/speaker-02-mobile.png" alt="speakers-02-mobile" class="mobile-only">
+              </div>
+              <div class="speakers-blocks--content">
+                <span class="margin-bottom4">Lana.Timon</span>
+                <span class="font-size14 color-white07 margin-bottom20">3 млн подписчиков в Tik-Tok</span>
+                <div class="flex font-size14 margin-bottom56">
+                  <a href="" class="margin-right16">Instagram</a>
+                  <a href="" class="">Facebook</a>
+                </div>
+                <span class="margin-top-auto">Как зарабатывать <br> на контенте в Tik-Tok?</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="contacts-section">
-        <h2 class="section-title">Регистрируйся на урок</h2>
-        <h3 class="section-description">Заполни простую форму, чтобы получить ссылку на трансляцию</h3>
+      <section id="contacts" class="contacts-section">
+        <div class="contacts-section--left">
+          <div class="contacts-section--header">
+            <h2 class="section-title">Регистрируйся <br> на урок</h2>
+            <h3 class="section-description">Заполни простую форму, чтобы получить ссылку на трансляцию</h3>
+          </div>
+          <img src="/img/contact-us.svg" alt="contact-us" class="contacts-section--img">
+        </div>
+        <div class="contacts-section--right">
+          <form class="contacts-form">
+            <input type="text" placeholder="Твоё имя">
+            <input type="email" placeholder="Твой e-mail">
+            <input type="number" placeholder="Твой номер телефона">
+            <input type="submit" class="primary-btn" value="Участвовать бесплатно!">
+          </form>
+          <div class="contacts-section--footer">Подключайся на урок и узнай как зарабатывать <br> в Tik-Tok с любой точки мира!</div>
+        </div>
       </section>
-    </div> -->
+    </div>
   </main>
   <footer>
     <div class="container flex-align-center flex-space-between">
