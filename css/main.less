@@ -387,7 +387,10 @@ footer{
 // PRIMARY SECTION
 .primary-section{
   padding: 80px 0;
-  min-height: 100vh;
+  min-height: calc(100vh - 104px);
+  @media screen and (min-height: 1080px) {
+    min-height: 100%;
+  }
   &--container{
     @media (min-width: 1200px) {
       padding: 0 102px;
